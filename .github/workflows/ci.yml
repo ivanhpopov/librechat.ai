@@ -37,7 +37,7 @@ jobs:
         with:
           project: "librechat-ai"
           path: "."
-          format: "HTML,JSON"
+          format: "HTML"
           out: "reports"
 
       - name: Upload report
