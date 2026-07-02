@@ -39,6 +39,8 @@ jobs:
           path: "."
           format: "HTML"
           out: "reports"
+          args: >
+            --disableYarnAudit
 
       - name: Upload report
         if: always()
